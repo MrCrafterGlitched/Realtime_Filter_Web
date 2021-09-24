@@ -1,0 +1,18 @@
+body{
+    background-size:cover;
+}
+canvas{
+    border: 2px darkslategrey dashed;
+    animation:BOX 2s 1s infinite;
+}
+@keyframes BOX{
+    from{
+        box-shadow: 1px 1px 1px 30px gold;
+    }
+    to{
+        box-shadow: 1px 1px 30px brown;
+    }
+}
+h3{
+    font-size: 25px!important;    
+    }
