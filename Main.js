@@ -16,7 +16,7 @@ function draw() {
     image(video,0,0,300,300)
     fill("red")
     stroke("black")
-    image(img,nose_x-15,nose_y,30,30)
+    image(img,nose_x-30,nose_y-15,60,60)
 }
 function TakeSnapshot() {
     save("Filter-ed.png")
